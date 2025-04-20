@@ -10,7 +10,7 @@ Route::get('/login', function () {
 
 // Proses login (langsung ke dashboard)
 Route::post('/login', function () {
-    return redirect('/dashboard');
+    return redirect('dashboard');
 });
 
 // Halaman dashboard
